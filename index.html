@@ -229,15 +229,23 @@
           <h5>PORTFOLIO</h5>
         </div>
         <div class="col-lg-6">
-          <p><img class="img-responsive" src="img/example2.jpg" alt=""></p>
+          <p><img class="img-responsive" src="img/home.jpg" alt=""></p>
         </div>
 
         <div class="col-lg-3">
-          <p>Shake the Stress Away</p>
-          <a href="https://github.com/nikou36/ShakeAwayTheStress">GitHub Repo Here!</a>
+          <p>Is My Crop Healthy?</p>
+          <a href="https://github.com/nikou36/Is-My-Crop-Healthy-App">GitHub Repo Here!</a>
           <p>
-            <more>An Android app for lifting your mood. It supplies you with life advice, affirmations and even jokes. <br/><br/>
-              <sm><i class="icon-tag"></i> Android</sm>
+            <more>An Android app that uses machine learning to check the health of your crops. All you need to do is provide a photo of the crop and the app will spit out a diagnosis.<br>
+              <sm><i class="icon-tag"></i> Android</sm><br>
+              <b>What I did:</b> <br>
+              <ul>
+                <li>Implemented and used SQL-Lite with the RoomDB abstraction layer. This is an extremely useful skill for my future projects that will need to store API data.</li>
+                <li>Mutli-threading. This was a necessity when working with Room since accessing disc memory can take a long time and can clog up the main thread</li>
+                <li>Integrated neural networks into my app via Tensorflow-lite.  </li>
+              </ul>
+              <br/><br/>
+
             </more>
           </p>
         </div>
@@ -251,7 +259,13 @@
             <a href="https://github.com/nikou36/Image-To-PDF-Android-APP">GitHub Repo Here!</a>
             <p>
               <more>An Android app for converting images into .pdf files. The user can choose to pick an image from their gallery or take a new image from their camera.  <br/><br/>
-                <sm><i class="icon-tag"></i> Android</sm>
+                <sm><i class="icon-tag"></i> Android</sm><br>
+                <b>What I did:</b> <br>
+                <ul>
+                  <li>File management and manipulation through the Android SDK</li>
+                  <li>Themes and styling </li>
+                </ul>
+                <br/><br/>
               </more>
             </p>
           </div>
@@ -264,7 +278,14 @@
           <a href="Food_or_not_detection.html">Click Here to View The Jupyter Notebook!</a>
           <p>
             <more>Constructed a Tensorflow/ Keras, binary classification, transfer learning model that takes in an image and determines whether or not the image contains food. I was able to achieve a 91% validation accuracy after training the model with about 4000 images.<br/><br/>
-              <sm><i class="icon-tag"></i> Machine Learning</sm>
+              <sm><i class="icon-tag"></i> Machine Learning</sm><br>
+              <b>What I did:</b> <br>
+              <ul>
+                <li>Constructed transfer learning models with pre-built architectures (MobileNetV2 in this case).</li>
+                <li>Feature engineering and normalization. A very important process, otherwise the model won't correctly or at all. </li>
+                <li>Created callbacks to prevent the model from overfitting.</li>
+                <li>Made a simple dashboard to analyze validation and training results.</li>
+              </ul>
             </more>
           </p>
         </div>
@@ -277,7 +298,15 @@
           <a href="https://github.com/nikou36/Fantasy-Football-Archive-API">GitHub Repo Here!</a>
           <p>
             <more>The back-end for a planned fantasy football archive web-app. The web-app will memorialize the past seasons of fantasy football my friends and I have played together. The services are developed with: the Flask framework, Docker and is inteded to be hosted on AWS <br/><br/>
-              <sm><i class="icon-tag"></i> Back-End</sm>
+              <sm><i class="icon-tag"></i> Back-End</sm><br>
+              <b>What I did:</b> <br>
+              <ul>
+                <li>Wrote Lambda functions to proccess data queried from DynamoDB</li>
+                <li>Designed and implemented database tables</li>
+                <li>Set up endpoints with API Gateway</li>
+                <li>Ensure that the appopriate status codes are returned by using Lambda Proxy Integration</li>
+                <li>Set up version control for lambda functions</li>
+              </ul>
             </more>
           </p>
         </div>
